@@ -1,0 +1,22 @@
+field,definition
+county,County name used as the community unit of analysis.
+fips,County FIPS code for future joins to map geometry.
+region,Central Valley subregion grouping.
+rural_urban_category,Synthetic rural/urban classification for filtering.
+population,Synthetic county population estimate for portfolio analysis.
+median_household_income,Synthetic median household income in US dollars.
+poverty_rate,Synthetic percent of residents below poverty level.
+uninsured_rate,Synthetic percent of residents without health insurance.
+primary_care_clinics,Count of public CDPH facility records classified as clinic access points.
+hospitals,Count of public CDPH facility records classified as hospitals.
+emergency_departments,General acute care hospitals used as an ED availability proxy.
+clinics_per_100k,"Primary care clinics per 100,000 residents."
+hospitals_per_100k,"Hospitals per 100,000 residents."
+facilities_per_100k,"All counted healthcare facilities per 100,000 residents."
+healthcare_access_score,0-100 composite score where higher means stronger modeled access.
+er_dependence_risk_score,0-100 composite score where higher means greater modeled ER dependence risk.
+access_gap_score,0-100 composite score combining low access and higher ER dependence risk.
+risk_driver_summary,Short explanation of the main indicators contributing to modeled risk.
+access_story,Plain-language interpretation of each county access profile.
+priority_recommendation,Suggested public-health planning focus based on modeled indicators.
+risk_level,"Low, Moderate, or High risk band based on ER dependence risk score."
